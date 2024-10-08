@@ -17,8 +17,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 
 require('dotenv').config();
-//create a database connection -> u can also
-//create a separate file for this and then import/use that file here
+
 
 mongoose
   .connect(process.env.URL)
